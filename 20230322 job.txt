@@ -1,0 +1,4 @@
+1. window 제거 및 우분투 18.04LTS 환경 설치
+ - airsim과 잘 맞는 환경
+2. NVIDIA 설치 및 cuda, cudnn 설치
+3. ssh 환경 구축 + port forwarding
