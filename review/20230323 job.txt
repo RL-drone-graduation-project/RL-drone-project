@@ -1,0 +1,5 @@
+1. ssh 환경 마무리. user name 라오스 수도로 바꿈
+
+2. unrealengine 설치 및 사용해보기
+
+3. airsim 환경 구축 후 사용
