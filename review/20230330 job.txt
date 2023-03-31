@@ -1,0 +1,5 @@
+./AirsimNH.sh 를 통해 AirSim 경로 설정이 어떻게 되어 있는지 파악.
+
+속도, 위치, 방향 등이 action_space로 설정되어 있는 코드 digging.
+
+대략적인 setting.json 파일의 수정과 path 설정
