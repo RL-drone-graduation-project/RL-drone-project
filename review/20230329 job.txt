@@ -1,0 +1,7 @@
+airsim 환경 설치 완료 및 ./AirSimNH.sh 파일 구동 (microsoft airsim io의 release 부분을 clone해서 사용함)
+ - uproject 파일 동작이 안되어 기본적인 sh 파일로 실행시켰음.
+ 
+unity 환경도 추가 설치
+ - unreal이 동작 안할 때를 대비해 unity 환경 구축 또한 진행하였음.
+ 
+환경 설정 마무리 단계.
