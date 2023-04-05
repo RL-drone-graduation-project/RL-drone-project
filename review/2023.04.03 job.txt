@@ -1,0 +1,3 @@
+airsim SAC 코드 돌려보기
+observation_space는 goal, sensor, lidar 등의 정보를 concate한 141 dim의 데이터로 되어있음.
+action_space는 velocity를 주었음. x,y,z 정보를 담고있는 3차원짜리 continuous한 action임.
