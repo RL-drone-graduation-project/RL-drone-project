@@ -1,0 +1,7 @@
+교수님과의 미팅 진행.
+
+drone 모델명 조사 및 movetoposition 영상 녹화 요구하셨음.
+
+rule-base로 만들어진 모델에 noise를 주려고 하면 어떤 경우를 rule-base로 지정할거냐 조사 필요.
+
++ PID에 대한 상관관계 여부 조사.
