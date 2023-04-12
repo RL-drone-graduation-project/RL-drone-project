@@ -1,0 +1,6 @@
+SAC로 100만 스텝까지 늘려서 학습해보기.(50만 스텝 당 하루정도 소요.)
+
+movetoposition 및 roll,pitch,yaw,throttle API 조작 방법 찾기.
+ - 일단 4가지의 action_space를 구성하려면
+  -> roll(-1 ~ 1), pitch(-1 ~ 1), yaw(-1 ~ 1), throttle(0 ~ 1)로 이루어질 예정.
+observation_space는 pos, vel, orient, sensor data로 이루어질 예정.
