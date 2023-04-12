@@ -1,0 +1,5 @@
+드론 모델명 조사 - DJI F450
+화면 녹화로 drone model 1 episode 녹화 완료.
+
+stable_baseline3로 callback, evaluate_policy API 추가.
+tensorboard 사용법 익히기.
