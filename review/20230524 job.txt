@@ -1,0 +1,4 @@
+reward 업데이트
+저번주 job 정리
+rule base - movetoposition 바탕으로 만들기
+제자리 hovering하는 모델 학습
