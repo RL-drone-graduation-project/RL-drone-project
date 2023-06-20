@@ -1,0 +1,6 @@
+1. movetoposition, movebyvelocity, movebyrollpitchyawthrottle 성능체크
+2. 왜곡모델 설계 -> 왜곡은 gaussian noise를 적용하여 normal 분포를 사용함. sigma는 error의 정도를 결정.
+3. flat noise와 gaussian noise를 적용시켰을 때의 차이점 비교.
+4. rulebase, pos, vel 3개를 distortion을 적용하여 test해보고 성능 비교.
+5. auxilary task로 noise 넣는 방법?
+6. state를 stacking하는게 좋은가?
