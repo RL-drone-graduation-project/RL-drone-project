@@ -1,0 +1,75 @@
+{
+	"SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+	"SettingsVersion": 1.8,
+  "SimMode": "Multirotor",
+  "LocalHostIp": "127.0.0.1",
+  "ApiServerPort": 8001,
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1920,
+        "Height":1080,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "MotionBlurAmount": 0
+      }
+    ]
+  },
+  "Vehicles": {
+    "Drone2": {
+      "VehicleType": "SimpleFlight",
+      "AutoCreate": true,
+      "Sensors": {
+        "imu": {
+          "SensorType": 2,
+          "Enabled" : true,
+          "AngularRandomWalk": 0.3,
+          "GyroBiasStabilityTau": 500,
+          "GyroBiasStability": 4.6,
+          "VelocityRandomWalk": 0.24,
+          "AccelBiasStabilityTau": 800,
+          "AccelBiasStability": 36
+        },
+        "gps": {
+          "SensorType": 3,
+          "Enabled" : true,
+          "EphTimeConstant": 0.9,
+          "EpvTimeConstant": 0.9,
+          "EphInitial": 25,
+          "EpvInitial": 25,
+          "EphFinal": 0.1,
+          "EpvFinal": 0.1,
+          "EphMin3d": 3,
+          "EphMin2d": 4,
+          "UpdateLatency": 0.2,
+          "UpdateFrequency": 50,
+          "StartupDelay": 1
+        },
+        "lidar": {
+            "SensorType": 6,
+            "Enabled" : true,
+            "NumberOfChannels": 64,
+            "PointsPerSecond": 10000,
+            "RotationsPerSecond" : 100,
+            "Roll": 0, "Pitch":0, "Yaw" : 0,
+            "X": 0, "Y": 0, "Z": 0,
+            "VerticalFOVUpper": 90,
+            "VerticalFOVLower": -90,
+            "DrawDebugPoints": false
+        }
+      }
+    },
+    "PhysXCar": {
+      "VehicleType": "PhysXCar",
+      "DefaultVehicleState": "",
+      "AutoCreate": true,
+      "PawnPath": "",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "RC": {
+        "RemoteControlID": -1
+      }
+    }
+  }
+}
