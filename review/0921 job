@@ -1,0 +1,4 @@
+-curriculum learning 코드 0~ 50프로로 증가하는 버전 진행중
+-지도학습으로 왜곡 정도에 따른 state를 1,5,10 stacking하여 학습시켰을 때, 왜곡 정도를 잘 예측하는지 확인.
+-같은 정도의 왜곡을 주었을 때, 10step의 mean_distance를 모아 3.5 이하가 되면 왜곡을 10 증가시킴. 0~50까지 순차적으로 진행하여 replay_buffer를 채우기.
+-이렇게 생성된 replay_buffer로 왜곡이 들어간 raw imu state로 test 했을 때, 성능 확인
